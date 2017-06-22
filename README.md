@@ -6,7 +6,7 @@
 ## 手机端页面适配rem方案
 
 
-###rem
+### rem
 
 rem(font size of root Element) 是指相对于根元素的字体大小单位。还有与它相似的em单位，em(font size of Element) 是指相对于父元素的字体大小单位。
 
