@@ -1,6 +1,6 @@
 {
   "name": "flexible",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "一只基于rem可伸缩布局的js库",
   "main": "index.js",
   "scripts": {
