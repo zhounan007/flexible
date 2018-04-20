@@ -6,7 +6,7 @@
 
   var doc = win.document,
     docEl = doc.documentElement,
-    resizeEvt = 'orientationchange' in window ? '' : 'resize';
+    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
 
   var recalc = (function refreshRem() {
     var deviceWidth = docEl.getBoundingClientRect().width,
