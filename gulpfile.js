@@ -5,7 +5,7 @@ var jshint = require('gulp-jshint');  // 注意需要同时安装 jshint
 
 gulp.task('build', function() {
 
-	gulp.src('./libs/flexible.js')
+	gulp.src('./libs/zui.flexible.js')
 		 //.pipe(jshint())
     	 //.pipe(jshint.reporter('default'))
     	 .pipe(uglify())

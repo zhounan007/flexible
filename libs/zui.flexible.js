@@ -40,8 +40,10 @@
         // 设置viewport是因为我们要实现border1px的效果，假如我给border设置了1px，在scale的影响下，高清屏中就会显示成0.5px的效果
         metaEl.setAttribute('content', ['width=device-width, initial-scale=', _scale, ' maximum-scale=', _scale,
           ' minimum-scale=', _scale, ' user-scalable=no'
-        ].join(''))
+        ].join(''));
+		
        // doc.documentElement.setAttribute('data-dpr', dpr);
+	   
         doc.documentElement.style.fontSize = _fontsize / 2 * dpr * scale + 'px';
 
         doc.body.style.fontSize = (12 * dpr) + 'px';
